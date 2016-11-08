@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goodList.css"/>
+	</head>
+	<body>
+		<!--------------------------top------------------------------->
+		<div id="top_0">
+			<a href="#"><img src="img-enter/top.jpg"/></a>
+		</div>
+		<!--top部分-->
+		<div id="top_box">
+			<div id="top_content" class="top-content">
+				<a href="#">考拉欢迎你！</a>
+				<a href="http://10.9.160.135/xiangmu/enter.html" target="_blank" id="enter_win">登录</a>
+				<span class="fenge">|</span>
+				<a href="http://10.9.160.135/xiangmu/register.html" target="_blank" id="reg_win">免费注册</a>
+				<a href="#" id="phon_win">手机考拉海购</a>
+				<ul>
+					<li><a href="#" class="every">每日签到</a></li>
+					<span class="fenge">|</span>
+					<li><a href="#" >我的订单</a></li>
+					<span class="fenge">|</span>
+					<li id="percen"><a href="#">个人中心</a>
+					</li>
+					<span class="fenge">|</span>
+					<li id="cliser"><a href="#" >客户服务</a>	
+					</li>
+					<span class="fenge">|</span>
+					<li><a href="#" class="gamemo">游戏充值</a></li>
+					<span class="fenge">|</span>
+					<li><a href="#">消费者告知书</a></li>
+					<span class="fenge">|</span>
+					<li id="more"><a href="#">更多</a></li>
+				</ul>
+				<!--个人中心下拉框-->
+				<div id="percenC" class="percenC">
+						<a href="#">我的优惠券</a>
+						<a href="#">我的考拉豆</a>
+						<span class="filg"></span>
+						<a href="#">账户安全</a>
+						<a href="#">我的实名认证</a>
+						<span class="filg"> </span>
+						<a href="#">我收藏的商品</a>
+						<a href="#">我关注的品牌</a>
+						<span class="filg"></span>
+						<a href="#">售后管理</a>
+				</div>
+				<!--客户服务下拉框-->
+				<div id="cliserC" class="cliserC">
+						<a href="#">联系客服</a>
+						<a href="#">服务中心</a>
+				</div>
+				<!--更多-->
+				<div id="moreC" class="moreC">
+					<a href="#">收藏本站</a>
+					<span class="filg"></span>
+					<a href="#">新浪微博</a>
+					<a href="#">微信公众号</a>
+					<a href="#">易信公众号</a>
+					<span class="filg"> </span>
+					<a href="#">招商合作</a>
+					<span class="filg"></span>
+					<a href="#">售后管理</a>
+				</div>
+			</div>
+		</div>
+		<!--head等部分-->
+		<div id="head_box">
+			<div id="head_content" class="head-content">
+				<!--logo-->
+				<a id="logo" href="http://10.9.160.135/xiangmu/index.html#" target="_blank"><img  src="images/head_03.jpg" alt="网易考拉海购" /></a>
+				<!--搜索框-->
+				<div class="inp" >
+					<input type="text" name="" id="" value="" />
+				</div>
+				<span class="search" ></span>
+				<!--购物车-->
+				<a class="buycar" href="http://10.9.160.135/xiangmu/buyCar.html" target="_blank">
+					<span>购物车</span>
+					<b class="carNum">0</b>
+				</a>
+				<!--搜索栏下方提示表-->
+				<ul class="smlist">	
+					<li><a href="#">钙片</a></li><span class="fen">|</span>
+					<li><a href="#">药膏</a></li><span class="fen">|</span>
+					<li><a href="#">牛栏</a></li><span class="fen">|</span>
+					<li><a href="#">花王眼罩</a></li><span class="fen">|</span>
+					<li><a href="#">鱼油</a></li><span class="fen">|</span>
+					<li><a href="#">德运奶粉</a></li>
+				</ul>
+				<!--naver-->
+				<ul class="naver">
+					<li class="typeall">
+						<div>
+							<i></i>
+							<i></i>
+							<i></i>
+						</div>
+						<a href="#">所有分类</a>
+					</li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">今日限时购</a></li>
+					<li><a href="#">每日上新</a></li>
+					<li><a href="#">排行榜</a></li>
+					<li><a href="#">国家馆</a></li>
+					<li><a href="#">日本乐天市场</a></li>
+					<li><a href="#">香港莎莎国际美妆</a></li>
+				</ul>
+				<img src="img-infmt/1111.gif" class="dobble" />
+			</div>
+			
+		</div>
+		
+		<!--所有种类的下拉列表-->
+			<div class="typeallC">
+				<ul>
+					<li class="one"><span>母婴儿童</span><i>&gt;</i></li>
+					<li class="two"><span>美容彩妆</span><i>&gt;</i></li>
+					<li class="thr"><span>服饰鞋包</span><i>&gt;</i></li>
+					<li class="four"><span>家具生活</span><i>&gt;</i></li>
+					<li class="five"><span>营养保健</span><i>&gt;</i></li>
+					<li class="six"><span>海外直邮</span><i>&gt;</i></li>
+					<li class="seven"><span>数码家电</span><i>&gt;</i></li>
+					<li class="eight"><span>环球美食</span><i>&gt;</i></li>
+					<li class="nine"><span>户外运动</span><i>&gt;</i></li>
+					<li class="ten"><span>水果生鲜</span><i>&gt;</i></li>
+				</ul>
+				<!--每一个子菜单对应的列表内容-->
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">护肤</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">精选大牌</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">个人洗护</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">营养补充</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">母婴专区</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">手机/配件</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">手机/配件</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">乳品/麦片/咖啡/冲饮</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>			
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">运动品牌</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>			
+				<div class="oneC">
+					<div class="ssp-left">
+					<p><a href="">新鲜水果</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+				</div>		
+				<div class="ssp-right">
+					<p><a href="">奶粉</a></p>
+					<div class="brand-1">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+						<a href="#">2段</a><span>|</span>
+						<a href="#">3段</a><span>|</span><a href="#">5段(2+)</a><span>|</span>
+						<a href="#">4段（2+）</a><span>|</span><a href="#">6段</a><span>|</span>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-2">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+						<a href="#">可瑞康</a><span>|</span><a href="#">贝拉米</a><span>|</span>
+						<a href="#">美林</a><span>|</span><a href="#">惠氏</a><span>|</span>
+						<a href="#">泓乐</a><br>
+						<a href="#">美赞臣</a><span>|</span>
+						<a href="#">贝儿</a><span>|</span><a href="#">a2</a><span>|</span>
+						<a href="#">雀巢</a><span>|</span><a href="#">1段</a><span>|</span>
+						<a href="#">Pre段</a><br>
+					</div>
+					<p><a href="">奶粉</a></p>
+					<div class="brand-3">
+						<a href="#">爱他美</a><span>|</span><a href="#">牛栏</a><span>|</span>
+						<a href="#">Hello Baby</a><span>|</span><a href="#">喜宝</a><br>
+					</div>
+					</div>		
+					<div class="ssp-logo">
+						<a href="#"><img src="images/l1.jpg"/></a>
+						<a href="#"><img src="images/l2.jpg"/></a>
+						<a href="#"><img src="images/l3.jpg"/></a>
+						<a href="#"><img src="images/l4.jpg"/></a>
+						<a href="#"><img src="images/l5.jpg"/></a>
+						<a href="#"><img src="images/l6.jpg"/></a>
+						<a href="#"><img src="images/l7.jpg"/></a>
+						<a href="#"><img src="images/l8.jpg"/></a>
+						<a href="#"><img src="images/l9.jpg"/></a>
+						<a href="#" class="Lerter"><img src="images/l0.jpg"/></a>
+					</div>		
+				</div>
+			
+			</div>
+			
+			
+		<!--content部分-->
+		<div id="content_box">
+			<div class="content">
+				<div class="adr">
+					<a>全部结果> </a>
+					<a> 奶粉</a>
+					<span>商品共<b>543</b>个</span>					
+				</div>
+				<div class="brand">
+					<div class="brand-title">
+						品牌：
+					</div>
+					<div class="brand-content">
+						<ul >
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+						</ul>
+					</div>
+					<div class="brand-more">
+						<a href="">展开</a>
+						<span></span>
+					</div>
+				</div>
+				<div class="country">
+					<div class="country-title">
+						国家：
+					</div>
+					<div class="country-content">
+						<ul>
+							<li>美国</li>
+							<li>荷兰</li>
+							<li>德国</li>
+							<li>澳大利亚</li>
+							<li>新西兰</li>
+							<li>英国</li>
+							<li>瑞士</li>
+							<li>意大利</li>
+							<li>丹麦</li>
+							<li>法国</li>
+							<li>爱尔兰</li>						
+						</ul>
+					</div>
+				</div>
+				<div class="size">
+					<div class="size-title">
+						分类：
+					</div>
+					<div class="size-content">
+						<ul>
+							<li>2段</li>
+							<li>3段</li>
+							<li>4段</li>
+							<li>1段</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+							<li>惠氏</li>
+							<li>荷兰牛栏</li>
+							<li>佳贝</li>
+							<li>雀巢</li>
+							<li>美赞臣</li>
+							<li>喜宝</li>
+						</ul>
+					</div>	
+				</div>
+				<div class="fit">
+					<div class="fit-title">
+						适用阶段：
+					</div>
+					<div class="fit-content">
+						<ul>
+							<li>pre段</li>
+							<li>一段</li>
+							<li>二段</li>
+							<li>三段</li>
+							<li>四段</li>
+							<li>五段</li>
+							<li>六段</li>
+							<li>全阶段</li>
+							<li>6个月以上</li>
+							<li>10个月以上</li>
+							<li>三岁以上</li>
+						</ul>
+					</div>	
+				</div>
+				<div class="sift">
+					<ul>
+						<li>人气<em></em></li>
+						<li>销量<em></em></li>
+						<li>新品<em></em></li>
+						<li>价格<em></em></li>
+						<li>
+							<input type="text" placeholder="￥"/>-
+							<input type="text" placeholder="￥"/>
+							<span>确定</span>
+						</li>
+					</ul>
+					<input type="checkbox"  id="ziying" /><label for="ziying">自营商品</label>
+					<input type="checkbox"  id="youhuo" /><label for="youhuo">有货商品</label>
+					<input type="checkbox"  id="cuxiao" /><label for="cuxiao">促销商品</label>
+					<div class="paging">
+						<span class="now">1</span>
+						<em>/</em>
+						<span class="paging-total">6</span>
+						<button class="left">&lt;</button>
+						<button class="right">&gt; </button>
+					</div>
+
+				</div>
+				<div class="show-window">
+					<div class="good-paging">
+						<div class="good">
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10001" ><img src="img-googlist/10001.jpg"  pid="10001"/></a>
+								<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+								<a href="#" class="mm">好吃就是这个味道</a>
+								<span class="pr">￥9.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+							<div class="rct">
+								<a href="http://10.9.160.135/xiangmu/infmt.html?pid=10002"><img src="img-googlist/10002.jpg"   pid="10002"/></a>
+								<a href="#" class="ms">张君雅 九日蜂蜜黄油薯片 80克</a>
+								<a href="#" class="mm">让韩国明星位置疯狂的薯片</a>
+								<span class="pr">￥14.9<b>￥18.8</b></span>
+								<a class="buy-now">立即购买</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>					
+		</div>
+		<!--foot部分-->
+		<div id="foot_box">
+			<div id="foot_content" class="foot-content">
+				<div class="btmlist">
+					<ul class="listfix">
+						<li>
+							<i class="fix-zp-1"></i>
+							<strong>100%正品保障</strong>
+							<span>全球精品 正品保障</span>
+						</li>
+						<li>
+							<i class="fix-zp-2"></i>
+							<strong>低价保障</strong>
+							<span>缩减中间环节 确保低价</span>
+						</li>
+						<li>
+							<i class="fix-zp-3"></i>
+							<strong>7天无忧退货</strong>
+							<span>国内退货 售后无忧</span>
+						</li>
+						<li>
+							<i class="fix-zp-4"></i>
+							<strong>实付满88包邮</strong>
+							<span>部分特殊商品除外</span>
+						</li>
+					</ul>
+				</div>
+				<div class="guideList">
+					<ul>
+						<li class="gl-first">
+							<a href="#" class="smlogo">
+								<img src="images/images/smlogo_03.jpg"/>
+							</a>
+							<div class="focous">
+								<span class="focousus">关注我们</span>
+								<a href="#" class="wb">
+									<i class="f1"></i>
+									<span class="nosha">
+										<img src="images/2dcode-wb.jpg"/>
+										<span class="farme"></span>
+									</span>
+								</a>
+								<a href="#" class="wx">
+									<i class="f2"></i>
+									<span class="nosha">
+										<img src="images/2dcode-wb.jpg"/>
+										<span class="farme"></span>
+									</span>
+								</a>
+								<a href="#" class="yb">
+									<i class="f3"></i>
+									<span class="nosha">
+										<img src="images/2dcode-wb.jpg"/>
+										<span class="farme"></span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="gl-se">
+							<dl>
+								<dt>考拉保障</dt>
+								<dd><a href="#">正品保障</a></dd>
+								<dd><a href="#">康正监督</a></dd>
+							</dl>
+						</li>
+						<li class="gl-se">
+							<dl>
+								<dt>新手指南</dt>
+								<dd><a href="">购物流程</a></dd>
+								<dd><a href="">支付方式</a></dd>
+								<dd><a href="">通关税费</a></dd>
+								<dd><a href="">常见问题</a></dd>
+							</dl>
+						</li>
+						<li class="gl-se">
+							<dl>
+								<dt>售后服务</dt>
+								<dd><a href="">退货政策</a></dd>
+								<dd><a href="">退货流程</a></dd>
+								<dd><a href="">退款说明</a></dd>
+								<dd><a href="">联系客服</a></dd>
+							</dl>
+						</li>
+						<li class="gl-se">
+							<dl>
+								<dt>物流配送</dt>
+								<dd><a href="">配送方式</a></dd>
+								<dd><a href="">配送服务</a></dd>
+								<dd><a href="">运费标准</a></dd>
+								<dd><a href="">物流跟踪</a></dd>
+							</dl>
+						</li>
+						<li class="gl-se">
+							<dl>
+								<dt>关于我们</dt>
+								<dd><a href="">联系我们</a></dd>
+								<dd><a href="">招商合作</a></dd>
+								<dd><a href="">销售联盟</a></dd>
+								<dd><a href="">CEO邮箱</a></dd>
+							</dl>
+						</li>
+						<li class="gl-last">
+							<img src="images/us2D.jpg"  />
+							<span>扫描下载手机</span>
+						</li>
+					</ul>					
+				</div>	
+			</div>
+		</div>
+		<!--bottom部分-->
+		<div id="bottom_box">
+			<div id="bottom_content" class="bottom-content">
+				<div class="abus">
+					<a href="#">About NetEase</a>
+					<span>-</span>
+					<a href="#">公司简介</a>
+					<span>-</span>
+					<a href="#">联系方式</a>
+					<span>-</span>
+					<a href="#">友情链接</a>
+					<span>-</span>
+					<a href="#">招聘信息</a>
+					<span>-</span>
+					<a href="#">客服信息</a>
+					<span>-</span>
+					<a href="#">隐私政策</a>
+					<span>-</span>
+					<a href="#">网络营销</a>
+					<span>-</span>
+					<a href="#">网站地图</a>
+					<span>-</span>
+					<a href="#">网易考拉海购</a>
+				</div>
+				<div class="police">
+					<a href="#">
+						<img src="images/spallpo.png"  />
+					</a>
+					<a href="#">浙公网安备 33010002000000066号</a>
+					<span>增值电信业务经营许可证：浙B2-20090185-3</span>
+					<span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+					<span>网易公司版权所有&copy;1997-2016</span>
+				</div>
+				<div class="chi">
+					<a href="#"><img src="images/kexin.png" class="kexin"/></a>
+					<a href="#"><img src="images/last.jpg" class="bigpo"/></a>
+				</div>
+			</div>	
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/goodList.js"></script>
+</html>

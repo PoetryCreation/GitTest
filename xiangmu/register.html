@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		
+	</head>
+	<body>
+		<div id="top" class="top">
+			<a href="#" class="m-logo"></a>
+			<span>
+				已有账号？去
+				<a href="http://10.9.160.135/xiangmu/enter.html" class="m-enter">登录</a>
+			</span>
+		</div>
+		<div id="content">
+			<p class="tit">注册账号</p>
+			<div class="i-input">
+				<label for="i-ID" >账号：</label>
+				<input type="text"  id="i-ID"  placeholder="请输入6-18位字母数字组合"/>
+				<select name="">
+					<option value="@163.com">@163.com</option>
+					<option value="@126.com<">@126.com</option>
+					<option value="@yeah.net">@yeah.net</option>
+				</select>
+				<span id="name-W" class="flo"><i></i><em></em></span>
+			</div>
+			<div class="pwd">
+				<label for="p-pwd" >密码：</label>
+				<input type="password"  id="p-pwd"  placeholder="6-16密码，区分大小写"/>
+				<span id="pwd-m" class="flo"><i></i><em></em></span>
+			</div>
+			<div class="pwd-ok">
+				<label for="p-pwdO" >确认密码：</label>
+				<input type="password" id="p-pwdO"  placeholder="再次输入密码"/>
+				<span id="pwd-o" class="flo"><i></i><em></em></span>
+			</div>
+			<div class="i-code">
+				<label for="code" >验证码：</label>
+				<div  id="code" ><img src="img/flo.jpg" class="img-flo"/><span>拖动滑块,完成上方拼图</span>
+					<span id="pwd-s" class="flo"><i></i><em></em></span>
+				</div>
+				<div class="float">
+					<img src="img/x-1.jpg"/>
+					<img src="img/x-2.jpg" class="img-two"/>
+				</div>
+			</div>
+			<div class="p-numb">
+				<label for="num" >手机号：</label>
+				<input type="text"  id="num"  placeholder="手机号"/>
+				<span id="pwd-W" class="flo"><i></i><em></em></span>
+				
+			</div>
+			<div class="worm">
+				<label for=""></label><span id="worming">忘记密码时，可通过手机快速找回密码</span>
+				<label for=""></label>
+			</div>
+			
+			<div class="mes-num">
+				<label for="m-num" >短信验证码：</label>
+				<input type="text"  id="m-num"  placeholder="输入短信验证码"/>
+				<button class="getMess">获得验证码</button>
+				<span id="pwd-mes" class="flo"><i></i><em></em></span>
+			</div>
+			<div >
+				<label for=""></label>
+				<button class="sure">注册</button>
+			</div>
+			<div>
+				<label for=""></label>
+				<span class="tip">用户注册及代表同意
+					<a href="#">《服务条款》</a>和
+					<a href="#">《网络游戏用户隐私保护和个人信息利用政策》</a>
+				</span>
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>	
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+</html>

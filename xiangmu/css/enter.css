@@ -1,0 +1,252 @@
+
+/***************top *********************/
+#top{
+	width: 100%;
+	margin: 0 auto;	
+	height: 80px;
+	position: relative;
+}
+#top a{
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -985px;	
+}
+/***************logo*********************************/
+#logo{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100px;
+}
+.enter-logo{
+	float: left;
+	margin-top: 30px;
+}
+.qlt{
+	float: right;
+}
+/******************content***********************/
+#content-box{
+	width: 100%;
+	height: 520px;
+	background: url(../img-enter/banner.jpg) no-repeat center top;
+}
+#content{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+/*左边活动部分*/
+#content .act{
+	display: block;
+	width:400px;
+	height:280px;
+	position: absolute;
+	left: 10px;
+	top:110px;
+}
+/*右边登录部分*/
+#content .enter-box{
+	width: 500px;
+	position: absolute;
+	top:80px;
+	right: 20px;
+	background-color: #fff;
+}
+.enter-left{
+	width: 350px;
+	float: left;
+	padding-top:27px;
+	border-right:1px solid #eaeaea;
+}
+
+.enter-right{
+	float: right;
+	width: 149px;
+	height: 100%;	
+}
+/*********/
+.title{
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	padding-bottom:20px ;
+	margin-left: 40px;
+}
+/*用户名和密码*/
+.userName,.userCode{
+	width: 268px;
+	height: 34px;
+	border: 1px solid #c5cddb;
+	margin-left: 40px;
+	
+}
+.userName .n-bc,.c-bc{
+	width: 34px;
+	height: 34px;
+	float: left;
+}
+.userName #userN,#userC{
+	float: left;
+	border:none;
+	width: 220px;
+	border-left: 1px solid #c5cddb;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left:10px;
+	margin-top:2px;	
+	outline: none;
+}
+.userName{
+	margin-bottom: 16px;	
+}
+.userName .n-bc{
+	background:url(../img-enter/bc.png) no-repeat -10px -82px;
+}
+.userCode .c-bc{
+	background:url(../img-enter/bc.png) no-repeat -53px -82px;	
+}
+/*错误提示*/
+.error{
+	height:20px;
+	font-size: 12px;
+	color: #fa5b5b;
+	padding-top: 16px;	
+	margin-left: 40px;
+	display:none;
+}
+.error.active{
+	display: block;
+}
+.error-bc{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 15px;
+	background:url(../img-enter/bc.png) no-repeat -217px -33px;
+}
+/*免登陆*/
+.memory{
+	width: 270px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.memory i{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #aaa;
+	margin-right: 5px;	
+}
+.memory i.active{
+	background: url(../img-enter/bc.png) no-repeat -330px -92px;
+}
+.memory i input{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 15px;
+	height: 15px;	
+}
+.memory label,a{
+	font-size: 12px;
+	color: #999;
+}
+.memory a{
+	float: right;
+}
+.memory a:hover{
+	color: gray;
+}
+.memory label:hover{
+	cursor: pointer;
+	color: gray;
+}
+/*登录按钮*/
+.sure{
+	display: block;
+	border: none;
+	width: 270px;
+	height: 44px;
+	background-color: #E31436;
+	font: 18px "微软雅黑";
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+/*立即注册*/
+.register{
+	width: 350px;
+	height: 18px;
+	padding: 15px 0 20px;
+	text-align: center;	
+}
+.register a{
+	color: #51B8F1;
+}
+/*第三方登录*/
+.otr{
+	display: block;
+	width: 320px;
+	height: 22px;
+	border:1px solid #eaeaea ;
+	padding: 15px 0 10px 29px;	
+}
+.otr li{
+	float: left;
+	border-right: 1px solid #eaeaea;
+	padding: 0 10px 0;
+	cursor: pointer;
+}
+.otr li:first-child{
+	border:none;
+	cursor:default;
+}
+.otr li:last-child{
+	border: none;
+}
+.otr i{
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.wx{
+	background:url(../images/back.png) no-repeat -760px -275px;
+}
+.wx:hover{
+	background:url(../images/back.png) no-repeat -823px -275px;
+}
+.zfb{
+	background:url(../images/back.png) no-repeat -760px -300px;
+}
+.zfb:hover{
+	background:url(../images/back.png) no-repeat -823px -300px;
+}
+.wb{
+	background:url(../images/back.png) no-repeat -760px -330px;
+}
+.wb:hover{
+	background:url(../images/back.png) no-repeat -823px -330px;
+}
+.qq{
+	background:url(../images/back.png) no-repeat -760px -356px;
+}
+.qq:hover{
+	background:url(../images/back.png) no-repeat -823px -356px;
+}
+
+/*右边部分*/
+.enter-right{
+	height:366px;
+	background: url(../img-enter/2Dcode.jpg) no-repeat center;
+}
+.enter-right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+

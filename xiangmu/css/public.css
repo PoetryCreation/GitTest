@@ -1,0 +1,16 @@
+body,p,li,ul,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input{
+	padding: 0;
+	margin: 0;
+	font:12px/1.5 "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",微软雅黑,tahoma,simsun,宋体;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+img{
+	display: block;
+	border: none;
+}

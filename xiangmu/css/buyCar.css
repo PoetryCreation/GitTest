@@ -1,0 +1,521 @@
+
+/***************top *********************/
+#top{
+	width: 100%;
+	margin: 0 auto;	
+	height: 80px;
+	position: relative;
+}
+#top a{
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -985px;	
+}
+/***************logo*********************************/
+#logo{
+	width: 1090px;
+	margin: 0 auto;
+	height: 100px;
+	position: relative;
+}
+.enter-logo{
+	float: left;
+	margin-top: 30px;
+}
+.steps{
+	float: right;
+	margin: 45px 38px 0 0;
+	width: 290px;
+	height: 20px;
+	background: url(../img-buyCar/steps.png) no-repeat ;
+}
+.steps-de{
+	position: absolute;
+	right: 0;
+	top:75px;
+	width: 354px;
+	height: 21px;
+}
+.steps-de li{
+	float: left;
+	font-size: 14px;
+}
+.steps-de li+li{
+	margin-left: 72px;
+}
+.steps-de li.active{
+	color: #e31436;
+}
+/*************************内容部分********************/
+#car_box{
+	width: 1090px;
+	margin: 0 auto;
+}
+.list{
+	height:18px;
+}
+.list-0{
+	float: left;
+	height:18px;
+	width: 114px;
+}
+.list-0 input{
+	float: left;
+	width: 18px;
+	height: 18px;
+	-webkit-appearance: none;
+	background:url(../img-buyCar/check.png) no-repeat 0px -24px;
+	outline: none;
+	margin: 0px 10px 0 12px	
+}
+.list-0 input.active{
+	background:url(../img-buyCar/check.png) no-repeat 0px 0px;
+}
+.list-0 label{
+	float: left;
+	line-height: 18px;
+}
+.list-1,.list-2,.list-3,.list-4,.list-5{
+	float: left;
+	color: #999;
+	padding: 0 10px;
+}
+.list-1{
+	    width: 394px;	    
+}
+.list-2{
+	    width: 132px;	    
+}
+.list-3{
+	    width: 120px;	    
+}
+.list-4{
+	    width: 120px;	    
+}
+.list-5{
+	    width: 110px;	    
+}
+/**********************商品信息*************************/
+#car_box{
+	display: block;
+}
+#car_box.active{
+	display: none;
+}
+.worming{
+	display: block;
+}
+.worming.active{
+	display: none;
+}
+
+
+.good{
+	width: 100%;
+	margin-top: 15px;
+}
+.adress{
+	width: 100%;
+	padding: 10px 0 15px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.adress input.active{
+	background:url(../img-buyCar/check.png) no-repeat 0px 0px;
+}
+.adress input{
+	float: left;
+	width: 18px;
+	height: 18px;
+	-webkit-appearance: none;
+	background:url(../img-buyCar/check.png) no-repeat 0 -24px;;
+	outline: none;
+	margin: 0px 10px 0 2px	
+}
+.good-message{
+	width: 100%;
+	height:138px;
+	border:1px solid #eaeaea;
+	background-color:#FFFBF0; 
+}
+/*//选择///*/
+.check{
+    width: 26px;
+    height:75px;
+    padding:45px 0 0 20px;
+    float: left;
+}
+.check input{
+	float: left;
+	width: 18px;
+	height: 18px;
+	-webkit-appearance: none;
+	background:url(../img-buyCar/check.png) no-repeat 0 -24px;
+	outline: none;
+	margin: 0px 10px 0 2px
+}
+.check input.active{
+	background:url(../img-buyCar/check.png) no-repeat 0px 0px;
+}
+/*/////商品详细信息//////*/
+.message{
+	float: left;
+	width: 425px;
+	padding:20px 80px 0 0;
+}
+.message .img-show{
+	float: left;
+	margin-right: 25px;
+}
+.describ{
+	float: left;
+	width: 310px;
+	color: #333;
+    font-size: 14px;
+    display: block;	
+}
+.describ:hover{
+	color: #e31436;
+}
+.tax{
+	display: inline-block;
+    padding: 0 3px;
+    height: 16px;
+    color: #999;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.tax i{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../img-buyCar/l1_03.jpg) no-repeat ;
+	margin-right: 5px;
+}
+.gift{
+	display: inline-block;
+	width: 475px;
+	padding: 10px 0;
+	color: #999;
+	
+}
+.gift a{
+	color: #999;
+}
+.gift a:hover{
+	text-decoration: underline;
+}
+.gift b{
+	font-weight: normal;
+	text-decoration: line-through;
+}
+.gift span{
+	float: right;
+}
+/*/////价格/////*/
+.price{
+	width: 102px;
+	height: 100%;
+	float: left;
+}
+.p-before{
+	display: block;
+	line-height: 18px;
+	color: #999;
+	margin-top: 30px;
+	text-decoration: line-through;
+}
+.p-now{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	line-height: 21px;
+	margin:5px 0;
+}
+.limit-time{
+	display: block;
+	font-size: 12px;
+	color: #e31436;
+	width: 50px;
+	text-align: center;
+	border:1px solid #e31436;
+	border-radius: 3px;
+	line-height: 18px;
+}
+/*////数量/////*/
+.num{
+	width: 152px;
+	float: left;
+	height: 88px;
+	padding-top: 50px;
+}
+.cut,.add{
+	float: left;
+	width: 22px;
+	height: 22px;
+	
+	border:1px solid #bcbcbc;
+	background-color: #fff;
+	cursor: pointer;
+}
+.num-now{
+	float: left;
+	width: 43px;
+	height: 20px;
+	border:1px solid #bcbcbc;
+	text-align: center;	
+}
+.limit-num{
+	display: inline-block;
+	float:right;
+	margin:10px 85px 0 0;
+	color: #e31436;
+}
+
+/*////商品价格//////*/
+.price-total{
+	width: 100px;
+	height: 50%;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 50px;
+}
+/*//////个人操作//////*/
+.operate{
+	width: 124px;
+	height: 100%;
+	float: left;	
+}
+.operate a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #333;
+}
+.operate a:hover{
+	text-decoration: underline;
+}
+.del{
+	margin-top: 40px;
+}
+/*////价格说明/////*/
+.price-exp{
+	padding: 10px 43px 10px 20px;
+    text-align: right;
+    border: 1px solid #eaeaea;
+    border-top: none;
+}
+.price-exp span+span{
+	margin-left: 12px;
+}
+.price-exp em{
+	font-style: normal;
+}
+/*//////////////////////////总价结算////////////////////////*/
+.total{
+	position: relative;
+	width: 1068px;
+	height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    position: relative;
+    background-color: #F8F8F8;
+    border: 1px solid #EAEAEA;
+    margin-top:50px ;
+}
+.settle{
+	position: absolute;
+	right: -1px;
+	top: -1px;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+.total p{
+	display: block;
+    line-height: 20px;
+    text-align: right;
+}
+.total-p1{
+	margin:-30px 140px 0 0;
+}
+.total-p1 b{
+	color: #e31436;
+    font-weight: bold;
+    font-size: 18px;
+}
+.total-p2{
+	margin-right:140px;
+	color: #999;
+}
+.total-p2 span+span{
+	margin-left: 10px;
+}
+.total-p2 em{
+	font-style: normal;
+}
+/******************************空购物车********************************/
+.worming{
+	position: relative;
+	width: 1090px;
+	height: 218px;
+	margin:0 auto;
+	background: url(../img-buyCar/car.jpg) no-repeat 335px center;
+}
+.worm{
+	position: absolute;
+    left: 396px;
+    top: 90px;  
+}
+.worm p{
+	font-size: 16px;
+}
+.worm a{
+	color: #D12147;
+}
+/******************************猜你喜欢********************************/
+#recomment{
+	height: 395px;
+	width: 1090px;
+	margin:0 auto;
+}
+#recomment p{
+	font:700 18px/38px "微软雅黑";
+}
+#recomment p i{
+	font-style: normal;
+	font-weight: 100;
+	font-size: 14px;
+	color: #999;
+	padding-left: 12px;
+}
+#recomment div+div{
+	margin-left: 15px;
+}
+.rct{
+	float: left;
+	margin-bottom: 15px;
+	width: 204px;
+	height: 304px;
+	border: 1px solid #eaeaea;
+}
+.ms{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #333;
+}
+.ms:hover{
+	text-decoration: underline;
+}
+.pr{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #E31436;
+}
+.pr b{
+	font-size: 12px;
+	
+	font-weight: 400;
+	color: #999;
+	text-decoration: line-through;
+}
+.pl{
+	display: block;
+	margin-left: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
+.pl:hover{
+	text-decoration: underline;
+}
+/****************bottom*********************/
+#bottom_box{
+	
+	background-color: #333;
+	padding: 20px 0;
+}
+.bottom-content{
+	width: 1090px;
+	margin: 0 auto;
+	color: #c2c2c2;
+}
+.bottom-content a{
+	color: #c2c2c2;
+}
+.bottom-content .abus{
+	text-align: center;
+	line-height: 26px;
+}
+.police a:first-child{
+	margin-left: 80px;
+	margin-right: 10px;
+}
+.police a{
+	float: left;
+	line-height: 26px;
+}
+.police span{
+	float: left;
+	line-height: 26px;
+	margin-left: 20px;
+}
+.police{
+	text-align: center;
+}
+.chi{
+	height:50px;
+}
+.chi a{
+	display: block;
+	float: left;
+}
+.chi .kexin{
+	width: 80px;
+	height: 30px;
+	margin-left: 460px;
+}
+.chi .bigpo{
+	margin-left: 20px;
+	width:28px;
+	height:30px;
+}
+.bottom-content a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+body{
+	background-color:  #efefef;
+}
+#top,#content{
+	width: 1000px;
+	margin:0 auto;
+}
+#top{
+	height: 95px;
+}
+.m-logo{
+	float: left;
+	width: 200px;
+	height: 60px;
+	margin-top:35px ;
+	background: url(../images/zheceback.png) no-repeat -50px -18px;
+}
+#top span{
+	float: right;
+	font-size: 18px;
+	margin-top: 50px;
+}
+#top span a{
+	color: #ca5252;
+	cursor: ;
+}
+#top span a:hover{
+	color: darkred;
+}
+/************内容部分****************/
+#content{
+	background-color: #fff;
+	height:800px;
+	margin-bottom: 200px;
+}
+.tit{
+	font: normal 24px "Microsoft YaHei","微软雅黑","宋体",helvetica,"Hiragino Sans GB";
+	color: #ca5252;
+	padding:44px 0 0 70px;
+}
+#content label{
+	float: left;
+	width: 340px;
+	text-align: right;
+	color: #333;
+	font-size: 16px;
+	line-height: 45px;
+	margin-top:12px;
+/*	cursor: pointer;*/
+}
+#content input{
+	float: left;
+	height:44px;
+	margin-top: 12px;
+	font-size: 16px;
+	text-indent: 0.5em;
+}
+#content select{
+	width:108px;
+	height: 48px;
+	margin: 12px;
+	font-size: 16px;
+	
+}
+#content div{	
+	position: relative;
+	width: 100%;
+	height: 72px;
+}
+#p-pwd,#p-pwdO,#num,#code{
+	width:320px
+}
+#content #i-ID{
+	width: 200px;
+}
+
+#content #m-num{
+	width: 190px;
+}
+#content .worm{
+	height:35px
+}
+#worming{
+	display: block;
+	color: #b1b1b1;
+}
+#content button{
+	font: 16px/46px "微软雅黑";
+	border: none;
+	color: #fff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	cursor: pointer;
+}
+#content .getMess{	
+	width:120px;
+	margin-top: 12px;		
+	background-color: #9ec5e3;	
+	margin-left: 10px;
+	cursor: default;	
+}
+#content .p-numb{
+	height:80px;
+}
+#content .sure{
+	background-color: #ca5252;
+	display: block;
+	width: 325px;
+	margin-top: 10px;
+	cursor: default;
+}
+.tip{
+	float: left;
+	width: 325px;
+	color: #b1b1b1;
+}
+#content a{
+	color: #b1b1b1;
+}
+#content a:hover{
+	color: #333;
+}
+/*****************验证码***********************/
+#content .i-code #code{
+	width: 320px;
+	height: 32px;
+	margin:0 auto;
+	margin-top: 16px;
+	border:1px solid #cbcbcb;
+	border-radius: 16px;
+	text-indent: 140px;
+	color: #a8a8a8;
+    font-size: 12px;
+    line-height: 32px;
+}
+#content .i-code label{
+	margin:0;
+}
+
+#content .float{
+	width: 320px;
+	height: 100px;
+	background-color: #ccc;
+	position: absolute;
+	left: 340px;
+	top: -110px;
+	display: none;
+}
+#content .float.active{
+	display: block;
+}
+.img-two{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.img-flo{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#pwd-s{
+    left: 340px;
+    top: 5px;
+}
+#content .i-code #pwd-s{
+	text-indent: 0px;
+}
+/*******隐藏提示内容样式.flo*/
+.flo{
+	display: none;
+	width:200px;
+	position: absolute;
+	left: 680px;
+	top: 25px;
+	color: red;
+	line-height: 20px;
+}
+.flo em{
+	font-style: normal;
+}
+.flo i{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../images/zheceback.png) no-repeat -65px -99px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
