@@ -50,6 +50,7 @@ function checkOne(){
 
 
 /////////////////////////得到购物车数据/////////////////////
+
 function getGoodListObj(){
 	var goodListStr = $.cookie("goodList");
 	if(!goodListStr){

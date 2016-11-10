@@ -40,7 +40,7 @@ $(".sure").click(function(){
 	for(var i = 0;i < userObj.length ; i ++){		
 		if(userObj[i].userName == userName && userObj[i].userCode == userCode){
 			alert("登陆成功");
-			location.href = "http://10.9.160.135/xiangmu/index.html?name="+userName+""
+			location.href = "../xiangmu/index.html?name="+userName+""
 			break;
 		}
 	}

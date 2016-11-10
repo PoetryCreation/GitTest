@@ -150,7 +150,7 @@ $(".sure").click(function(){
 		alert("注册成功");
 		
 		//将用户名和用户密码存入数据库
-		location.href = "http://10.9.160.135/xiangmu/enter.html"
+		location.href = "../xiangmu/enter.html"
 	}
 	
 })

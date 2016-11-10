@@ -221,7 +221,7 @@ $(function(){
 	function loading(lod,adr){
 		//让第一栏预加载
 		$(adr +" .type-naver").children("li:first").trigger("mouseenter");
-		$.get("http://10.9.160.135/xiangmu/shangpin/"+ lod +".json",function(data){
+		$.get("../xiangmu/shangpin/"+ lod +".json",function(data){
 			var pla = '<div class="place"></div>'
 			$(pla).appendTo($(adr+" .type-content"))
 			for(var i = 0;i < data.length;i++){

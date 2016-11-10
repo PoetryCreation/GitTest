@@ -332,7 +332,7 @@ $(".tit-more span").click(function(){
 ///////////////////////////评论后台加载////////////////////////////
 comment()
 function comment(){
-	$.get("http://10.9.160.135/xiangmu/shangpin/comment.json",function(data){
+	$.get("../xiangmu/shangpin/comment.json",function(data){
 		for(var i = 0; i < data.length; i++){
 			var com = $('<div class="tit2-dec">'+
 					'<div class="head-pic">'+
@@ -406,7 +406,7 @@ function getParam(paramName) {
     return paramValue;
 }
 //预加载页面
-$.get("http://10.9.160.135/xiangmu/shangpin/goodList.json",function(data){
+$.get("../xiangmu/shangpin/goodList.json",function(data){
 	for(var i = 0;i < data.length;i++){
 		if(data[i].pid == pid){
 			document.title = data[i].tit;
