@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/buyCar.css"/>
+	</head>
+	
+	<body>
+		<!--------------------------top------------------------------->
+		<div id="top">
+			<a href="#"><img src="img-enter/top.jpg"/></a>
+		</div>
+		<!----------------------------logo--------------------------->
+		<div id="logo">
+			<a href="http://10.9.160.135/xiangmu/index.html" target="_blank" class="enter-logo"><img src="images/images/smlogo_03.jpg" /></a>
+			<span class="steps"></span>
+			<ul class="steps-de">
+				<li class="active">我的购物车</li>
+				<li>提交订单</li>
+				<li>选择支付方式</li>
+			</ul>
+		</div>
+		<!----------------------------内容部分---------------------------->
+		<div id="car_box">
+			<div class="list">
+				<div class="list-0">
+					<input type="checkbox" name="checAll" id="checAll"  />
+					<label for="checkAll">全选</label>
+				</div>
+				<div class="list-1">商品信息</div>
+				<div class="list-2">单价（元）</div>
+				<div class="list-3">数量</div>
+				<div class="list-4">金额（元）</div>
+				<div class="list-5">操作</div>	
+			</div>
+			<!--===================商品加载位置===========================-->
+			<div class="good-box"></div>
+		<!--<div class="good">
+				<div class="adress">
+					<input type="checkbox" />
+					<span>宁波保税1号仓发货</span>
+				</div>
+				<div class="good-message">
+					<div class="check">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+					<div class="message">
+						<img src="img-buyCar/good1.jpg"  class="img-show"/>
+						<a href="#" class="describ">【官方直采】Merries 花王妙而舒 M 64片/包 4包装 纸尿裤/尿不湿</a>
+						<span class="tax"><i></i>预估税费 ： ￥39.99</span>
+						<div class="gift">
+							【赠品】<a href="">Pure Smile纯微笑 CHOOSY唇膜小灶 3毫升/片</a>
+							<span><b>￥25.00 </b>￥0.00×1</span>
+						</div>
+					</div>
+					<div class="price">
+						<span class="p-before">199.00</span>
+						<span class="p-now">105.00</span>
+						<span class="limit-time">限时购</span>
+					</div>
+					<div class="num">
+						<button class="cut">-</button>
+						<input type="text" class="num-now" value = "1"/>
+						<button class="add">+</button>
+						<span class="limit-num">限购5件</span>
+					</div>
+					<div class="price-total">210.00</div>
+					<div class="operate">
+						<a href="" class="del">删除</a>
+						<a href="" class="remove">移入收藏夹</a>
+					</div>						
+				</div>
+				<div class="price-exp">
+					<span class="active-gift">活动优惠：-￥<em>0.00</em></span>
+					<span class="price-total-2">商品应付总计：￥<b>259.00</b></span>
+					<span class="other">预估税费：￥<em>30.82</em></span>						
+				</div>	
+			</div>-->
+			<div class="total">
+				<div class="list-0">
+					<input type="checkbox" name="checAll" id="checAll"  />
+					<label for="checkAll">全选</label>
+				</div>
+				<a href="#" class="delet">删除所选商品</a>
+				<p class="total-p1">
+					<span class="total-num">已选商品 <b> 0 </b> 件</span>
+					<span class="total-price">总价（不含运费）：<b>0</b></span>
+				</p>
+				<p class="total-p2">
+					<span class="active-gift-t">活动优惠：-￥<em>0.00</em></span>
+					<span class="price-total-2t">商品应付总计：￥<b>259.00</b></span>
+					<span class="other-t">预估税费：￥<em>30.82</em></span>
+				</p>
+				<a href="" class="settle">去结算</a>
+			
+			</div>			
+		</div>
+		
+		<div class="worming">
+			<div class="worm">
+				<p>购物车空空如也，赶紧去	<a href="http://10.9.160.135/xiangmu/index.html" >逛逛吧&gt;</a></p>
+				<p>或者您可以先进行 <a href="http://10.9.160.135/xiangmu/enter.html" > 登录&gt;</a></p>
+			</div>
+		</div>
+		<!---------------猜你喜欢----------------------->
+		<div id="recomment">
+			<p>猜你喜欢<i>根据你的浏览记录推荐的商品</i></p>
+
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+		</div>
+		<!----------------大家都在买--------------------------------->
+		<div id="recomment">
+			<p>大家都在买<i>全网最热门的商品推荐</i></p>
+
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+			<div class="rct">
+				<img src="img-infmt/ret.jpg"  />
+				<a href="#" class="ms">张君雅 番茄味拉面条并 65克</a>
+				<span class="pr">￥9.9<b>￥18.8</b></span>
+				<a href="" class="pl">16621人评论</a>
+			</div>
+		</div>
+		<!------------------底部------------------------>
+		<div id="bottom_box">
+			<div id="bottom_content" class="bottom-content">
+				<div class="abus">
+					<a href="#">About NetEase</a>
+					<span>-</span>
+					<a href="#">公司简介</a>
+					<span>-</span>
+					<a href="#">联系方式</a>
+					<span>-</span>
+					<a href="#">友情链接</a>
+					<span>-</span>
+					<a href="#">招聘信息</a>
+					<span>-</span>
+					<a href="#">客服信息</a>
+					<span>-</span>
+					<a href="#">隐私政策</a>
+					<span>-</span>
+					<a href="#">网络营销</a>
+					<span>-</span>
+					<a href="#">网站地图</a>
+					<span>-</span>
+					<a href="#">网易考拉海购</a>
+				</div>
+				<div class="police">
+					<a href="#">
+						<img src="images/spallpo.png"  />
+					</a>
+					<a href="#">浙公网安备 33010002000000066号</a>
+					<span>增值电信业务经营许可证：浙B2-20090185-3</span>
+					<span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+					<span>网易公司版权所有&copy;1997-2016</span>
+				</div>
+				<div class="chi">
+					<a href="#"><img src="images/kexin.png" class="kexin"/></a>
+					<a href="#"><img src="images/last.jpg" class="bigpo"/></a>
+				</div>
+			</div>	
+		</div>
+	
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/buyCar.js"> </script>
+</html>
